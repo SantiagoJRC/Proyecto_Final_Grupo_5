@@ -3,5 +3,5 @@
 Grupo y Roles:
 
 #Santiago Rojas: Líder (1)
-#Tomás Rugeles: (2)
-#Adriana Pulido: (3)
+#Tomás Rugeles: estudiante 1 (2)
+#Adriana Pulido: estudiante 2 (3)
