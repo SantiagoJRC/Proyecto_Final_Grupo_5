@@ -4,7 +4,7 @@
 
 // Aquí se especifica que use la versión 3.9 de Python.
 
-"image": "mcr.microsoft.com/devcontainers/python:3.10",
+"image": "mcr.microsoft.com/devcontainers/python:3.9",
 
 
 // Configura VS Code para usar la extensión de Python
