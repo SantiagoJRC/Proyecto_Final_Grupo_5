@@ -9,6 +9,7 @@ def percentiles(archivo,columna):
         p25 = df[columna].quantile(0.25)
         p50 = df[columna].quantile(0.50)
         p75 = df[columna].quantile(0.75)
+        p90 = df[columna].quantile(0.90)
 
         return round(p25, 2), round(p50, 2), round(p75, 2)
 
