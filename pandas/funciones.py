@@ -16,3 +16,20 @@ def percentiles(archivo,columna):
         j=print("Error no existe la columna")
         return j
 
+
+
+
+def promedios(n, c):
+    try:
+
+        df = pd.read_csv(n)
+
+        if c not in df.columns:
+            print("No existe la columna")
+            return None
+        
+        prom = df[c].mean()
+        return prom
+    
+    except FileNotFoundError:
+        print("No existe el archivo")
